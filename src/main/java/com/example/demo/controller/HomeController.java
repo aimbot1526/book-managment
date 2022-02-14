@@ -42,13 +42,13 @@ public class HomeController {
         return storeService.updateInventory(bookId, storeId,request);
     }
 
-    @PostMapping("/book/add-book")
+    @PostMapping("/books")
     public String addBook(@RequestBody BookRequest request) {
 
         return storeService.addBook(request);
     }
 
-    @DeleteMapping("/book/{bookId}")
+    @DeleteMapping("/books/{bookId}")
     public String deleteByBookId(@PathVariable Long bookId) {
 
         return storeService.deleteByBookId(bookId);
