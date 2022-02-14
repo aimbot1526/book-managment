@@ -1,4 +1,4 @@
-# book-managment
+# Book-Managment
 
 ## Add database to your localhost
 - First create database and then restore it with file "/src/main/resources/sql/dump-demo_db".
