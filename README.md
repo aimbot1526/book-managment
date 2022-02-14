@@ -29,6 +29,9 @@ Go in project's root directory and run these commands.
 - **`DELETE /api/auth/books/{bookId}`** Remove from the inventory.
 
 - **`POST /api/auth/books`** Add a new book.
+      ```
+    { "name" : "book name", "noOfPages": "number of pages here" }
+    ```
 - **`POST /api/auth/inventory/{bookId}/{storeId}`** Update inventory for an existing book.
     ```
     { "bookCount" : "book count here in numerals" }
