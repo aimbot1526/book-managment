@@ -1,5 +1,14 @@
 # book-managment
 
+## To Start Server
+Go in project's root directory and run these commands.
+```bash
+./gradlew clean
+```
+```bash
+./gradlew bootRun
+```
+
 ## REST API 
 
 - **`GET /api/auth/signup`** create user
