@@ -1,5 +1,10 @@
 # book-managment
 
+## Add database to your localhost
+- First create database and then restore it with this file.
+
+![](https://github.com/aimbot1526/book-managment/blob/master/src/main/resources/ezgif.com-gif-maker.gif)
+
 ## To Start Server
 Go in project's root directory and run these commands.
 ```bash
