@@ -1,7 +1,7 @@
 # book-managment
 
 ## Add database to your localhost
-- First create database and then restore it with this file.
+- First create database and then restore it with file "/src/main/resources/sql/dump-demo_db".
 
 ![](https://github.com/aimbot1526/book-managment/blob/master/src/main/resources/ezgif.com-gif-maker.gif)
 
@@ -36,3 +36,5 @@ Go in project's root directory and run these commands.
     ```
     { "bookCount" : "book count here in numerals" }
     ```
+## For API Testing
+Go to this link https://www.getpostman.com/collections/5c69c584b05a90c13845 and import json from this link to postman.
